@@ -47,5 +47,8 @@ complete -W "NSGlobalDomain" defaults;
 # Add `killall` tab completion for common apps
 complete -o "nospace" -W "Contacts Calendar Dock Finder Mail Safari iTunes SystemUIServer Terminal" killall;
 
+# Load nodenv automatically
+eval "$(nodenv init -)"
+
 # Load rbenv automatically
 eval "$(rbenv init -)"
