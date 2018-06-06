@@ -7,6 +7,3 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 # Always rebase when pulling
 git config --global branch.autosetuprebase always
-
-# https://twitter.com/keithjgrant/status/958060643604672513
-alias idk="printf \"¯\_(ツ)_/¯\" | pbcopy && echo \"¯\_(ツ)_/¯ copied to clipboard\""

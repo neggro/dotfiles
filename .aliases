@@ -122,3 +122,8 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+# https://twitter.com/keithjgrant/status/958060643604672513
+alias idk="printf \"¯\_(ツ)_/¯\" | pbcopy && echo \"¯\_(ツ)_/¯ copied to clipboard\""
+
+alias flip="printf \"(╯°□°）╯︵ ┻━┻\" | pbcopy && echo \"(╯°□°）╯︵ ┻━┻ copied to clipboard\""
