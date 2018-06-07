@@ -7,3 +7,6 @@ git config --global user.email "$GIT_AUTHOR_EMAIL"
 
 # Always rebase when pulling
 git config --global branch.autosetuprebase always
+
+# Always setup upstream tracking
+git config --global branch.autosetupmerge always
